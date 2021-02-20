@@ -1,0 +1,136 @@
+{
+  "C:\\Users\\Rasheed\\Desktop\\basheer\\bashreact\\bashunitreact\\cypress-react-unittest\\src\\MyComponent.js": {
+    "path": "C:\\Users\\Rasheed\\Desktop\\basheer\\bashreact\\bashunitreact\\cypress-react-unittest\\src\\MyComponent.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 30
+        },
+        "end": {
+          "line": 5,
+          "column": 41
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 5
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 39
+        },
+        "end": {
+          "line": 9,
+          "column": 56
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 39
+        },
+        "end": {
+          "line": 10,
+          "column": 56
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MyComponent",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 23
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 34
+          },
+          "end": {
+            "line": 9,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 39
+          },
+          "end": {
+            "line": 9,
+            "column": 56
+          }
+        },
+        "line": 9
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 34
+          },
+          "end": {
+            "line": 10,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 39
+          },
+          "end": {
+            "line": 10,
+            "column": 56
+          }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 4,
+      "3": 2
+    },
+    "f": {
+      "0": 8,
+      "1": 4,
+      "2": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2201e204367ff39be001c8f5ab141c54180a29e6"
+  }
+}
