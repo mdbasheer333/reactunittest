@@ -7,16 +7,26 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
     "cypress-react-selector": "^2.3.6",
+    "fs-extra": "^9.1.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "rimraf": "^3.0.2",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "pretest": "npm install && mkdirp ./testresults/reports/mocha ./testresults/reports/mochareports",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "combine-reports": "mochawesome-merge ./testresults/reports/mocha/*.json > ./testresults/reports/mochareports/output.json",
+    "generate-report": "marge ./testresults/reports/mochareports/output.json -f QAUnitTestResults -o ./testresults/reports --inline -p QAUnitTestResults --autoOpen false",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    "test": "cypress run || npm run posttest",
+    "clean": "npx rimraf testresults .cache"
   },
   "eslintConfig": {
     "extends": [

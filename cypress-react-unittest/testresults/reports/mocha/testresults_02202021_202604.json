@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-02-20T14:56:04.134Z",
+    "end": "2021-02-20T14:56:04.440Z",
+    "duration": 306,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d1ba1437-2285-468d-86fa-00a4a2a5b830",
+      "title": "",
+      "fullFile": "src\\components\\test1.cy-spec.js",
+      "file": "src\\components\\test1.cy-spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f1181a8d-8d56-4440-9466-3f87f622bc97",
+          "title": "HelloWorld component",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "works",
+              "fullTitle": "HelloWorld component works",
+              "timedOut": null,
+              "duration": 122,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_1jza2xugvg().f[1]++;\ncov_1jza2xugvg().s[2]++;\n(0, _react.mount)( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(\"button\", {\n  id: \"btnClick\",\n  children: \"click me\"\n}, void 0, false, {\n  fileName: _jsxFileName,\n  lineNumber: 7,\n  columnNumber: 11\n}, _this));\ncov_1jza2xugvg().s[3]++;\ncy.get('button#btnClick').should('have.text', 'click me');",
+              "err": {},
+              "uuid": "b18e0124-6a76-4f80-8a02-2aa12b1dd981",
+              "parentUUID": "f1181a8d-8d56-4440-9466-3f87f622bc97",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b18e0124-6a76-4f80-8a02-2aa12b1dd981"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 122,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "testresults",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./testresults/reports/mocha",
+        "reportFilename": "testresults",
+        "overwite": true,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss",
+        "quiet": true,
+        "reportTitle": "test results"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

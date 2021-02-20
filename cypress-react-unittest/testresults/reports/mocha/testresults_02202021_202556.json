@@ -1,0 +1,129 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-02-20T14:55:55.615Z",
+    "end": "2021-02-20T14:55:56.593Z",
+    "duration": 978,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1085dbfb-226f-4e5d-80a9-93dd52ac2973",
+      "title": "",
+      "fullFile": "src\\components\\test.cy-spec.js",
+      "file": "src\\components\\test.cy-spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4183e92c-f5f2-4dd6-a8b6-ed77e4f66efe",
+          "title": "HelloWorld component",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "works1",
+              "fullTitle": "HelloWorld component works1",
+              "timedOut": null,
+              "duration": 348,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_2hzlh8zhyu().f[2]++;\ncov_2hzlh8zhyu().s[4]++;\ncy.get('button#abc').should('have.text', 'clicked 0 times');\ncov_2hzlh8zhyu().s[5]++;\ncy.get('button#abc').click().should('have.text', 'clicked 1 times').click().should('have.text', 'clicked 2 times');",
+              "err": {},
+              "uuid": "6eae6cf3-3f37-4a52-9e87-087c7ad4746a",
+              "parentUUID": "4183e92c-f5f2-4dd6-a8b6-ed77e4f66efe",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "works2",
+              "fullTitle": "HelloWorld component works2",
+              "timedOut": null,
+              "duration": 120,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_2hzlh8zhyu().f[3]++;\ncov_2hzlh8zhyu().s[7]++;\ncy.get('button#xyz').click().should('have.text', 'clicked 3 times');",
+              "err": {},
+              "uuid": "712b1e58-2fc0-462f-bd1a-903c27c7cdeb",
+              "parentUUID": "4183e92c-f5f2-4dd6-a8b6-ed77e4f66efe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6eae6cf3-3f37-4a52-9e87-087c7ad4746a",
+            "712b1e58-2fc0-462f-bd1a-903c27c7cdeb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 468,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": true,
+        "reportFilename": "testresults",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "./testresults/reports/mocha",
+        "reportFilename": "testresults",
+        "overwite": true,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss",
+        "quiet": true,
+        "reportTitle": "test results"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

@@ -2,5 +2,20 @@
     "experimentalComponentTesting": true,
     "experimentalFetchPolyfill": true,
     "testFiles": "**/*cy-spec.js",
-    "componentFolder": "src"
+    "componentFolder": "src",
+    "video": false,
+
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "./testresults/reports/mocha",
+        "reportFilename": "testresults",
+        "overwite": true,
+        "html": false,
+        "json": true,
+        "charts": true,
+        "timestamp": "mmddyyyy_HHMMss",
+        "quiet": true,
+        "reportTitle": "test results"
+    }
+
   }
