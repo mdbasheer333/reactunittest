@@ -19,4 +19,4 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 require('@cypress/react/support')
-require('@testing-library/cypress/add-commands');
+// require('@testing-library/cypress/add-commands');
