@@ -1,5 +1,6 @@
 
 import AliasComponent from './AliasComponent';
+import ApiComponent from './ApiComponent';
 
 function App() {
 
@@ -10,7 +11,10 @@ function App() {
 
   return (
     <div className="App">
-      <AliasComponent props={data}></AliasComponent>
+      
+      {/* <AliasComponent props={data}></AliasComponent> */}
+    <ApiComponent></ApiComponent>
+
     </div>
   );
 }
