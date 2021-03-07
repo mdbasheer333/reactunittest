@@ -4,7 +4,6 @@
     "testFiles": "**/*cy-spec.js",
     "componentFolder": "src",
     "video": false,
-
     "reporter": "mochawesome",
     "reporterOptions": {
         "reportDir": "./testresults/reports/mocha",
@@ -16,6 +15,12 @@
         "timestamp": "mmddyyyy_HHMMss",
         "quiet": true,
         "reportTitle": "test results"
-    }
-
+    },
+    "env": {
+        "reactDevtools": true,
+        "cypress-react-selector": {
+          "root": "#cypress-root"
+        },
+        "RETRIES": 1
+      }
   }
